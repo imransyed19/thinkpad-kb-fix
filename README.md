@@ -1,6 +1,18 @@
-# ThinkPad keyboard fix
-ThinkTwice is a small Windows .NET app which replaces {PrtSc} key press with right mouse click.
+# ThinkTwice keyboard fix
+ThinkTwice is a Windows app which replaces {PrtSc} key press with right mouse click.
 
 More precisely - with the {Shift}{F10} key combination, which corresponds to the {Menu} button,
-which was blatantly replaced with Print Screen button on newer ThinkPad models.
-All experienced Windows users who are using keyboard on a laptop could benefit from such a possibility, as many got used to this extremely helpful button.
+which was replaced with Print Screen button on newer ThinkPad models.
+
+## Use
+Launch the ThinkTwiceKeybardFix.exe
+The key stays remapped as long as the windows remains open.
+You might wish to launch it on startup.
+
+## Contribute
+One area of improvement:
+* System tray.
+* Icon
+
+## Credits
+This work is based on [Low-Level Keyboard Hook in C#](https://blogs.msdn.microsoft.com/toub/2006/05/03/low-level-keyboard-hook-in-c/) by Stephen Toub.

@@ -1,4 +1,4 @@
-﻿namespace ThinkPadKeybardFix
+﻿namespace ThinkTwiceKeyboardFix
 {
     internal static class Messages
     {

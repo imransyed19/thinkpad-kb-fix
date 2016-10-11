@@ -7,8 +7,8 @@
     <ProjectGuid>{A906121D-0FE3-46AE-BFF9-BEB1AFEA4DF2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThinkPadKeybardFix</RootNamespace>
-    <AssemblyName>ThinkPadKeybardFix</AssemblyName>
+    <RootNamespace>ThinkTwiceKeyboardFix</RootNamespace>
+    <AssemblyName>ThinkTwiceKeyboardFix</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

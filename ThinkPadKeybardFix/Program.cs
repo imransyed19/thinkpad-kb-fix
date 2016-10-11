@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace ThinkPadKeybardFix
+namespace ThinkTwiceKeyboardFix
 {
     class InterceptKeys
     {
@@ -24,7 +24,7 @@ namespace ThinkPadKeybardFix
         private void Run()
         {
             _hookId = SetHook(_proc);
-            var mainForm = new Form { Text = "Fix {PrtSc} button", Width = 600, Height = 400};
+            var mainForm = new Form { Text = "ThinkTwice keyboard fix", Width = 600, Height = 400};
             mainForm.Controls.Add(new Label {Text = "Remaps {PrtSc} key to {Shift}{F10} which has a function of bringing up current context menu, similar to a right click." + Environment.NewLine + "Fixes Lenovo ThinkPad keyboard problem, as this button is replaced with {PrtSc} on some newer makes.", Dock = DockStyle.Fill});
             Application.Run(mainForm);
 

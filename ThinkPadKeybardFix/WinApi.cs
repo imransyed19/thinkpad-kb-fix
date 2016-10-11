@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace ThinkPadKeybardFix
+namespace ThinkTwiceKeyboardFix
 {
     static class WinApi
     {
