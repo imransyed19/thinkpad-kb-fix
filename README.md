@@ -5,7 +5,7 @@ More precisely - with the {Shift}{F10} key combination, which corresponds to the
 which was replaced with Print Screen button on newer ThinkPad models.
 
 ## Use
-Launch the ThinkTwiceKeybardFix.exe
+Launch the ThinkTwiceKeyboardFix.exe
 The key stays remapped as long as the windows remains open.
 You might wish to launch it on startup.
 
