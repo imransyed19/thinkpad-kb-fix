@@ -9,10 +9,5 @@ Launch the ThinkTwiceKeyboardFix.exe
 The key stays remapped as long as the windows remains open.
 You might wish to launch it on startup.
 
-## Contribute
-One area of improvement:
-* System tray.
-* Icon
-
 ## Credits
 This work is based on [Low-Level Keyboard Hook in C#](https://blogs.msdn.microsoft.com/toub/2006/05/03/low-level-keyboard-hook-in-c/) by Stephen Toub.
