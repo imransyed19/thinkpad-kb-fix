@@ -20,6 +20,18 @@ namespace ThinkTwiceKeyboardFix
             var app = new InterceptKeys();
             app.Run();
         }
+        
+        private void Form1_Resize(object sender, EventArgs e)  
+        {  
+             //if the form is minimized  
+             //hide it from the task bar  
+             //and show the system tray icon (represented by the NotifyIcon control)  
+             if (this.WindowState == FormWindowState.Minimized)  
+             {  
+                  Hide();  
+                  notifyIcon.Visible = true;                  
+             }  
+        }  
 
         private void Run()
         {
